@@ -27,7 +27,7 @@ client.user.setActivity(argresult, {type:'LISTENING'});
 } else 
 
 if (message.content.startsWith(prefix + 's')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/Justin-Ly0001%22);
+  client.user.setGame(argresult, "https://www.twitch.tv/Justin-Ly0001%22");
     message.channel.sendMessage(:white_check_mark:  : ${argresult})
 }
   if (message.content.startsWith(adminprefix + 'setname')) {
