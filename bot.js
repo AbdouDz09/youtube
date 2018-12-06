@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', () => {
-console.log(Hi ${client.user.tag} ,This Code by : YossiF);
-console.log('')
 console.log(i Have  [ " ${client.guilds.size} " ]);
 });
 const developers = ["441316969870786581"]
