@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', () => {
-console.log(i Have  [ " ${client.guilds.size} " ]);
-});
 const developers = ["441316969870786581"]
 const adminprefix = "$";
 client.on('message', message => { var argresult = message.content.split(`).slice(1).join(' ');
